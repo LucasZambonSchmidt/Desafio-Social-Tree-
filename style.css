@@ -1,7 +1,7 @@
 *{
     font-family: 'Poppins', sans-serif;;
     box-sizing: border-box;
-    }
+}
 
 .fundo{
     display: flex;
@@ -16,9 +16,9 @@ body {
 }
 
 .fotodeperfil{
-width: 200px;
-height: 200px;
-border: 2px solid #BB99DD;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #BB99DD;
     border-radius: 50%;
     padding: 5px;
 }
@@ -29,14 +29,14 @@ border: 2px solid #BB99DD;
     text-align: center;
 }
 .retangulo {
-box-sizing: border-box;
-width: 326px;
-height: 49px;
-border: 2px solid #BB99DD;
-border-radius: 4px;
-display: flex;
-align-items: center;
-justify-content: center;
+    box-sizing: border-box;
+    width: 326px;
+    height: 49px;
+    border: 2px solid #BB99DD;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .perfil{
     display: flex;
