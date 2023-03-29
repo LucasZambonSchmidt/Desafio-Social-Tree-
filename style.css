@@ -1,9 +1,16 @@
-*{
-    font-family: 'Poppins', sans-serif;;
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
-.fundo{
+:root {
+    --background: white;
+    --text: #BB99DD;
+}
+
+.fundo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,51 +19,75 @@
 }
 
 body {
-    background-color: #FAF7FD;
+    background-color: var(--background);
 }
 
-.fotodeperfil{
+.fotodeperfil {
     width: 200px;
     height: 200px;
-    border: 2px solid #BB99DD;
+    border: 2px solid var(--text);
     border-radius: 50%;
     padding: 5px;
 }
-.instagram{
+
+.nome {
     font-weight: 400;
-    font-size: 16px;
-    color: #BB99DD;
+    font-size: 18px;
+    color: var(--text);
     text-align: center;
 }
+
+.descricao {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--text);
+    text-align: center;
+}
+
 .retangulo {
     box-sizing: border-box;
     width: 326px;
     height: 49px;
-    border: 2px solid #BB99DD;
+    border: 2px solid var(--text);
     border-radius: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.perfil{
+
+.perfil {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5px;
 }
-.link{
+
+.link {
     text-decoration: none;
-    color: #BB99DD;
+    color: var(--text);
     text-transform: uppercase;
     font-weight: bold;
 }
-.retangulos{
+
+.retangulos {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.social{
+
+.social {
     display: flex;
     gap: 25px;
     padding: 40px 5px;
+}
+
+.dark {
+    color: var(--text);
+    border: 2px solid var(--text);
+    padding: 10px 30px;
+    border-radius: 4px;
+}
+
+.dark:hover {
+    background-color: mediumpurple;
 }
