@@ -1,8 +1,8 @@
 const colors = {
-    "--background": "white",
+    "--text": "red",
 }
 const colors2 = {
-    "--background": "black",
+    "--text": "green",
 }
 let dark = false
 const changeColor = () => {
